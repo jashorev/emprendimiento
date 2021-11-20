@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\portafalio"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "empresa avance"
+  }
+}

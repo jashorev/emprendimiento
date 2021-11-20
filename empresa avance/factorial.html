@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>faltorial de un numero </h2>
+    <input type="text" id="numero"/>
+    <input type="button" value="factorial" onclick="factorial()"/>
+    <div id="respuesta"></div>
+    <script language="javascript">
+        function factorial() {
+
+            var numero = document.getElementById("numero").value;
+            var factorial = 1, i = 1;
+            for(var i=1; i<=numero; i++) {
+                
+                factorial = factorial* i;
+                
+            }
+            document.getElementById("respuesta").innerHTML = factorial;
+        }
+
+    </script>
+</body>
+</html>
